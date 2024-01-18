@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Properties with BootsTrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body id="head">
+
+  <header class="navbar navbar-expand-lg sticky-top p-1" id="headerMain">
+    <div class="container">      
+      <h1 class="navbar-brand fw-bold m-0">
+        <i class="bi bi-houses"></i>        
+        <a href="#head">Baker Dreams</a>
+      </h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menuNav"> 
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">            
+            <a href="#about" class="nav-link">  
+              <i class="bi bi-building me-1"></i>            
+              About Us
+            </a>
+          </li>          
+          <li class="nav-item fw-bold">
+            <a href="#buy" class="nav-link">
+              <i class="bi bi-bag me-1"></i>
+              Buy
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#rent" class="nav-link">
+              <i class="bi bi-house me-1"></i>              
+              Rent
+            </a>
+          </li>          
+          <li class="nav-item fw-bold">
+            <a href="#roomRental" class="nav-link">
+              <i class="bi bi-house me-1"></i>              
+              Room Rental
+            </a>
+          </li>          
+          <li class="nav-item fw-bold">
+            <a href="#contact" class="nav-link">
+              <i class="bi bi-chat me-1"></i>
+              Contact Us
+            </a>
+          </li>              
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="#headerMain">
+    <section>
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="imgCarousel">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="./img/villadecasas1.jpg" class="w-100" alt="houses villa">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./img/casaavenda1.jpg" class="w-100" alt="beautiful house">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./img/predios1.jpg" class="w-100" alt="large condominium with several apartments">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./img/casabeiralago.jpg" class="w-100" alt="lakeside house">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./img/predios2.jpg" class="w-100" alt="beautiful city with different buildings">
+            </div>
+          </div>          
+          <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button type="button" class="carousel-control-next " data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>        
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>        
+          </div>        
+        </div>        
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container pt-5 pb-5">
+        <div class="container">
+          <div class="row mt-5" id="aboutContainer">
+            <div class="col-md-5">
+              <img src="./img/predioEmpresarial.jpg" class="d-block w-100 rounded" alt="">
+            </div>
+            <div class="col-md-7">
+              <h2 class="text-center">About <span>the company</span></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam cumque temporibus iusto odit nesciunt? Quibusdam veniam id, maiores reprehenderit quo, rem vero aut, accusamus delectus dolorum neque saepe itaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam cumque temporibus iusto odit nesciunt? Quibusdam veniam id, maiores reprehenderit quo, rem vero aut, accusamus delectus dolorum neque saepe itaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam cumque temporibus iusto odit nesciunt? Quibusdam veniam id, maiores reprehenderit quo, rem vero aut, accusamus delectus dolorum neque saepe itaque?</p>
+              <h3 class="text-center">About <span>properties</span></h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt molestiae, eligendi quibusdam tempora est perferendis officia harum. Corrupti amet quia temporibus culpa voluptatem eaque tempore quos ullam, quaerat eum doloremque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam cumque temporibus iusto odit nesciunt? Quibusdam veniam id, maiores reprehenderit quo, rem vero aut, accusamus delectus dolorum neque saepe itaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam cumque temporibus iusto odit nesciunt? Quibusdam veniam id, maiores reprehenderit quo, rem vero aut, accusamus delectus dolorum neque saepe itaque?</p>              
+            </div>                      
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="buy" class="container pt-5 mb-5 pb-5">
+      <div class="container">
+        <div class="row pb-5">
+          <h2 class="text-center">Properties <span>for sale</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./img/casa1.jpg" alt="" class="d-block w-100 rounded">
+            <h3 class="pt-2">
+              <i class="bi bi-house-door"></i>
+              <span>Houses</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/apartamentos1.jpg" alt="" class="d-block w-100 rounded">
+            <h3 class="pt-2">
+              <i class="bi bi-building"></i>
+              <span>Apartments</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/flats1.jpg" alt="" class="d-block w-100 rounded">
+            <h3 class="pt-2">
+              <i class="bi bi-buildings"></i>
+              <span>Flats</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rent" class="container pt-5 pb-5">
+      <div class="container">
+        <div class="row pb-5">
+          <h2 class="text-center">Property <span>rental</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./img/casa2.jpg" alt="" class="d-block w-100 rounded">
+            <h3 class="pt-2">
+              <i class="bi bi-house-door"></i>
+              <span>Houses</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/apartamento2.jpg" alt="" class="d-block w-100 rounded">            
+            <h3 class="pt-2">
+              <i class="bi bi-building"></i>
+              <span>Apartments</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/flat2.jpg" alt="" class="d-block w-100 rounded">
+            <h3 class="pt-2">
+              <i class="bi bi-buildings"></i>
+              <span>Flats</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roomRental" class="container mt-5 pt-5"> 
+      <h2>Room <span>Rental</span></h2>     
+      <div class="container row">              
+        <div class="row mt-3 mb-5">          
+          <nav class="nav nav-pills gap-2" id="btnRent">
+            <button type="button" data-bs-toggle="tab" data-bs-target="#roomHouses" class="nav-link active">Room in houses</button>
+            <button type="button" data-bs-toggle="tab" data-bs-target="#roomApart" class="nav-link">Room in apartments</button>
+            <button type="button" data-bs-toggle="tab" data-bs-target="#roomFlat" class="nav-link">Room in flats</button>                     
+            <button type="button" data-bs-toggle="tab" data-bs-target="#sharingHouses" class="nav-link">Room sharing in houses</button>                
+            <button type="button" data-bs-toggle="tab" data-bs-target="#sharingApart" class="nav-link">Room sharing in apartments</button>                
+          </nav>                   
+        </div>
+      </div>
+      
+
+      <section id="rentalRoom" class="pb-5">
+        <div class="tab-content">
+          <div class="tab-pane active" id="roomHouses">
+            <div class="">          
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./img/casa1.jpg" alt="" class="d-block w-100 rounded">
+                  <h3 class="pt-2">
+                    <i class="bi bi-house-door"></i>
+                    <span>Houses</span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+                </div>
+                <div class="col-md-4">
+                  <img src="./img/apartamentos1.jpg" alt="" class="d-block w-100 rounded">
+                  <h3 class="pt-2">
+                    <i class="bi bi-building"></i>
+                    <span>Apartments</span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+                </div>
+                <div class="col-md-4">
+                  <img src="./img/flats1.jpg" alt="" class="d-block w-100 rounded">
+                  <h3 class="pt-2">
+                    <i class="bi bi-buildings"></i>
+                    <span>Flats</span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="tab-pane" id="roomApart">                     
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./img/casa2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-house-door"></i>
+                  <span>Houses</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/apartamento2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-building"></i>
+                  <span>Apartments</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/flat2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-buildings"></i>
+                  <span>Flats</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+            </div>            
+          </div>        
+        
+          <div class="tab-pane" id="roomFlat">                     
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./img/casaavenda1.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-house-door"></i>
+                  <span>Houses</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/predios1.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-building"></i>
+                  <span>Apartments</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/predios2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-buildings"></i>
+                  <span>Flats</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+            </div>            
+          </div>        
+        
+          <div class="tab-pane" id="sharingHouses">                      
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./img/casabeiralago.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-house-door"></i>
+                  <span>Houses</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/predioEmpresarial.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-building"></i>
+                  <span>Apartments</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/predios1.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-buildings"></i>
+                  <span>Flats</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+            </div>            
+          </div>
+        
+          <div class="tab-pane" id="sharingApart">                    
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./img/casa2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-house-door"></i>
+                  <span>Houses</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/apartamentos1.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-building"></i>
+                  <span>Apartments</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/flat2.jpg" alt="" class="d-block w-100 rounded">
+                <h3 class="pt-2">
+                  <i class="bi bi-buildings"></i>
+                  <span>Flats</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae nihil odio quis, alias possimus unde cupiditate eligendi repellendus qui eos nisi expedita natus quos labore accusantium, ipsam quaerat quidem.</p>
+              </div>
+            </div>            
+          </div>        
+        </div>
+      </section>
+    </section>
+
+    <section id="contact" class="container d-flex pt-5">      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <h2 class="mb-5">contact <span>us</span></h2>
+            <form>        
+              <div class="mb-3">
+                <label for="name" class="form-label fw-bold text-purple">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name">      
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-purple">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+              </div>    
+              <div class="mb-3">
+                <label for="tel" class="form-label fw-bold text-purple">Phone</label>
+                <input type="tel" name="tel" class="form-control" id="tel" placeholder="Phone Number">
+              </div> 
+              <div class="mb3">
+                <label for="message" class="form-label fw-bold">Message</label>
+                <textarea name="message" class="w-100" id="message" placeholder="Your message" ></textarea>
+              </div>
+              <button type="submit" id="btnContact" class="mt-3 btn">Submit</button>         
+            </form>
+          </div>
+        </div>
+      </div>      
+      <div class="col-md-5 pt-5">
+        <div class="row mb-1">
+          <h3 class="fs-5">
+            <i class="bi bi-hand-thumbs-up-fill"></i>
+            Social <span>media</span>
+          </h3>
+          <ul id="socialMedia" class="social-links d-flex gap-2 mb-5">
+            <li class="fs-4">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.tiktok.com" target="_blank">
+                <i class="bi bi-tiktok"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.pinterest.com" target="_blank">
+                <i class="bi bi-pinterest"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.snapchat.com" target="_blank">
+                <i class="bi bi-snapchat"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+            <li class="fs-4">
+              <a href="https://www.whatsapp.com" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="row mb-5">
+          <h3>
+            <i class="bi bi-cursor-fill"></i>
+            Address
+          </h3>
+          <p>90 test street - Example - Example - HG </p>
+        </div>
+      </div>
+    </section>
+  </div>   
+
+  <footer class="card-footer fw-bold p-1 text-end">
+    <div class="container">
+      <p class="mt-2">&copy; All rights reserved Mr. Baker</p>      
+    </div>
+  </footer> 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jQuery.js"></script>
+  <script src="./js/jquery.mask.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

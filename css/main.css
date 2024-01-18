@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 a:hover {
+  color: pink;
+  transition: 2s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lemon", serif;  
+}
+
+p {
+  font-size: .8rem;
+}
+
+.carousel-item img {   
+  height: 550px;   
+}
+
+#menuNav {
+  font-family: "Lemon", serif;  
+}
+
+.navbar {
+  background-color: purple;
+}
+
+.navbar-toggler {
+  background-color: pink;
+}
+
+.nav {
+  font-size: .8rem;
+}
+
+.nav .nav-link.active {
+  background-color: pink;
+}
+
+.nav .nav-link, .navbar-brand {  
+  color: #fff;
+}
+
+.navbar-brand {  
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+.navbar-brand:hover {  
+  color: pink;
+  transition: 2s;
+}
+
+#about img {
+  height: 380px;
+}
+
+#buy img, #rent img, #rentalRoom img {
+  height: 300px;
+}
+
+.card-footer {
+  background-color: purple;
+  color: #fff;
+  font-family: "Lemon", serif;
+}
+
+span {
+  color: purple;
+}
+
+textarea {
+  resize: none;  
+  height: 10rem;
+  border: 1px solid #ebe9e9;
+  border-radius: 6px;
+}
+
+#btnSign, #btnContact {
+  background-color: purple;
+  color: white;  
+  border: none;
+}
+
+#btnSign:hover, #btnContact:hover {
+  background-color: pink;
+  transition: 1s;
+}  
+
+#btnRent button {
+  background-color: purple;
+  font-family: "Lemon", serif;
+}
+
+#btnRent button:hover {
+  background-color: pink;
+  transition: 1s;
+}
+
+#socialMedia li {
+  list-style: none;
+}
+
+#socialMedia i, h3 i {
+  color: purple;  
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    
+    height: 280px;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
